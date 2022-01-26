@@ -1,0 +1,12 @@
+<div id="mainBody">
+    <p><b>Addition</b></p>
+    <form action="" methode="">
+        <label for="Search bar">Number 1 :</label>
+        <input type="number" size="30" name="firstNumber" [(ngModel)]="firstNumber"><br><br>
+        <label for="Search bar">Number 2 :</label>
+        <input type="number" size="30" name="secondNumber" [(ngModel)]="secondNumber"><br><br>
+        <button id="logInButton" (click)="addition()">Add</button>		
+    </form>
+    <p>Sum : {{sum}}</p>
+    <p><a routerLink="/homePage">Back to Main Menu </a></p>
+</div>
